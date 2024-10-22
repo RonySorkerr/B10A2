@@ -20,6 +20,25 @@
 
   .m-b-color{
     background-color: #E6533C;
+    color: white;
+    border: none;
+    padding: 0.4rem;
+    border-radius: 1rem;
+  }
+  .btn{
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 0.4rem;
+    border-radius: 1rem;
+    border: 1px solid gray;
+    width: 14rem;
+  }
+
+  body{
+    background: linear-gradient(to top, rgb(0, 0, 0), transparent);
+    background-repeat: no-repeat;
+    font-family: "Inter", sans-serif;
   }
 
   .gap{
@@ -61,7 +80,46 @@
     display:none;
   }
 
+  .banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
+  .tree{
+    color: white;
+    background-color: rgba(245, 222, 179, 0.233);
+    width: 10rem;
+    height: 6rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(245, 222, 179, 0.637);
+  }
+
+  .ball{
+    width: 10px;
+    height: 10px;
+    background-color: #E6533C;
+    border-radius: 50%;
+  }
+
+  .floating{
+    position: relative;
+  }
+  .b-tag{
+    font-size: 4rem;
+  }
+
+  .t-1{
+    position: absolute;
+    top: 5rem;
+    right: 1rem;
+  }
+  .t-2{
+    position: absolute;
+    bottom: 2rem;
+    left: 5rem;
+  }
 
   /* media query */
   @media screen and (max-width: 576px) {
@@ -73,4 +131,13 @@
     .nav_lists{
         display: none;
     }
+
+    .banner{
+        display: block;
+
+    }
+    .b-tag{
+        font-size: 3rem;
+    }
+
   }
