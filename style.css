@@ -121,6 +121,24 @@
     left: 5rem;
   }
 
+  .cards{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card img{
+    border-radius: 50%;
+  }
+
+  .card{
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+
+
   /* media query */
   @media screen and (max-width: 576px) {
     .menu-icon{
@@ -138,6 +156,10 @@
     }
     .b-tag{
         font-size: 3rem;
+    }
+
+    .cards{
+        display: block;
     }
 
   }
