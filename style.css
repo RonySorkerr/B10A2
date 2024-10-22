@@ -1,0 +1,76 @@
+/* mobile max-size : 576px */
+/* the styled font */
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+.s-font {
+    font-family: "Fasthand", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* main font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.m-font{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .m-b-color{
+    background-color: #E6533C;
+  }
+
+  .gap{
+    width: 80%;
+    margin: auto;
+  }
+
+  /* navbar styling */
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+  .nav_lists > li{
+    list-style: none;
+    padding-inline: 0.4rem;
+    padding: 0.2rem 0.4rem;
+    align-items: center;
+    display: flex;
+
+  }
+  .nav_lists{
+    display: flex ;
+    padding: 0.5rem;
+    border: 1px solid #e6e6e6;
+    border-radius: 1rem;
+  }
+
+  .home{
+    color: white;
+    font-weight: 800;
+    border-radius: 2rem;
+    border: 1px solid ;
+  }
+
+  .menu-icon{
+    display:none;
+  }
+
+
+
+  /* media query */
+  @media screen and (max-width: 576px) {
+    .menu-icon{
+        display: flex;
+        margin-left: 5.2rem;
+        width: 50%;
+    }
+    .nav_lists{
+        display: none;
+    }
+  }
