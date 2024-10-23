@@ -204,6 +204,27 @@
     border: 1px solid gray;
   }
 
+  .footer-cnt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+  }
+
+  .fftr{
+    display: flex;
+    gap: 4rem;
+  }
+
+  .fftr li{
+    list-style: none;
+  }
+
+  footer{
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+    background-color: rgba(134, 134, 134, 0.192);
+  }
   /* media query */
   @media screen and (max-width: 576px) {
     .menu-icon{
@@ -255,4 +276,14 @@
     .cards-container{
       grid-template-columns: repeat(1, 1fr);
     }
+    .footer-cnt{
+      display: block;
+      width: 90%;
+      margin-left: 2rem;
+    }
+    .fftr{
+      display: block;
+    }
+
+
   }
