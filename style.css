@@ -278,6 +278,29 @@
     border: 1px solid gray;
   }
 
+  .sbscrb input{
+    padding: 0.5rem;
+    width: 50%;
+    border-radius: 1rem;
+    border: 0;
+  }
+
+  .sbscrb button{
+    width: 30%;
+    display: block;
+    margin: auto;
+    padding: 0.5rem;
+    margin-top: 1rem;
+  }
+  .subscribe{
+    background-color:#E6533C;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    font-weight: 900;
+    font-size: 0.8rem;
+  }
+
   .footer-cnt{
     display: flex;
     align-items: center;
@@ -299,6 +322,8 @@
     padding: 4rem 0;
     background-color: rgba(134, 134, 134, 0.192);
   }
+
+
 
   /* media query */
   @media screen and (max-width: 576px) {
@@ -352,6 +377,12 @@
       grid-template-columns: repeat(1, 1fr);
     }
     
+    .sbscrb input{
+      width: 100%;
+    }
+    .sbscrb button{
+      width: 80%;
+    }
 
     .footer-cnt{
       display: block;
