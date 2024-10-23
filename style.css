@@ -285,9 +285,10 @@
 
   footer{
     margin-top: 4rem;
-    padding-bottom: 2rem;
+    padding: 4rem 0;
     background-color: rgba(134, 134, 134, 0.192);
   }
+
   /* media query */
   @media screen and (max-width: 576px) {
     .menu-icon{
@@ -339,6 +340,8 @@
     .cards-container{
       grid-template-columns: repeat(1, 1fr);
     }
+    
+
     .footer-cnt{
       display: block;
       width: 90%;
@@ -346,8 +349,17 @@
     }
     .fftr{
       display: block;
+      margin-top: 1rem;
+    }
+    .bmical{
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .calybmi{
+      width: 90%;
     }
 
 
 
+  
   }
