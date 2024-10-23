@@ -200,12 +200,13 @@
     }
 
     .run{
+      width: 80%;
       display: block;
-
     }
 
     .imgrun{
       width: 100%;
+      margin-top: 2rem;
     }
 
   }
