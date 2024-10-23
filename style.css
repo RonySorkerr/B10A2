@@ -169,8 +169,9 @@
   @media screen and (max-width: 576px) {
     .menu-icon{
         display: flex;
+        justify-content: space-between;
         margin-left: 5.2rem;
-        width: 50%;
+        width: 40%;
     }
     .nav_lists{
         display: none;
@@ -179,6 +180,9 @@
     .banner{
         display: block;
 
+    }
+    .b-tag{
+      font-size: 0.9rem;
     }
     .t-1{
       top: 0;
