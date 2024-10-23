@@ -41,7 +41,7 @@
   }
 
   body{
-    background: linear-gradient(to top, rgb(0, 0, 0), transparent);
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.836));
     background-repeat: no-repeat;
     font-family: "Inter", sans-serif;
   }
@@ -65,7 +65,7 @@
     padding: 0.3rem 1.5rem;
     align-items: center;
     display: flex;
-
+    color: white;
   }
   .nav_lists{
     display: flex ;
@@ -144,7 +144,7 @@
 
 
   .run{
-    background-color: rgba(136, 135, 135, 0.651);
+    background-color: rgba(136, 135, 135, 0.123);
     padding: 5rem;
     width: 80%;
     border-radius: 1rem;
@@ -176,13 +176,17 @@
     align-items: center;
     justify-content: center;
     gap: 10rem;
+    background-color: rgba(255, 255, 255, 0.062);
+    padding: 4rem 0;
   }
   .bmical table td{
+    color: rgba(155, 143, 122, 0.795);
     border: 1px solid white;
     padding: 0.8rem;
   }
   .bmical table th{
     border: 1px solid white;
+    color: rgba(155, 143, 122, 0.795);
   }
 
   .hlength{
@@ -235,6 +239,13 @@
     border: 0;
   }
 
+  .form  input{
+    background-color: rgba(255, 255, 255, 0.247);
+    border: 1px solid rgba(255, 255, 255, 0.555);
+  }
+  .form input{
+    color: white;
+  }
 
 
   .cardss > img{
@@ -261,7 +272,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 2rem;
-    background-color: rgba(121, 121, 121, 0.267);
+    background-color: rgba(121, 121, 121, 0.192);
     padding: 1rem;
     border-radius: 2rem;
     border: 1px solid gray;
