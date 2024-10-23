@@ -138,6 +138,32 @@
   }
 
 
+  .run{
+    background-color: rgba(136, 135, 135, 0.171);
+    padding: 1rem;
+    width: 60%;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+    color: white;
+  }
+
+  .btnj{
+    width: 100%;
+    padding: 20px;
+    color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 2rem;
+  }
+
+  .imgrun{
+    width: 300px;
+
+  }
+
 
   /* media query */
   @media screen and (max-width: 576px) {
@@ -154,12 +180,32 @@
         display: block;
 
     }
+    .t-1{
+      top: 0;
+      right: 0;
+    }
+    .t-2{
+      bottom: 0;
+      left: 0;
+    }
+    .floating{
+      margin-top: 2rem;
+    }
     .b-tag{
         font-size: 3rem;
     }
 
     .cards{
         display: block;
+    }
+
+    .run{
+      display: block;
+
+    }
+
+    .imgrun{
+      width: 100%;
     }
 
   }
